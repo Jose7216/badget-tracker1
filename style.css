@@ -1,0 +1,27 @@
+
+/* Expenses Table */
+.expenses-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.expenses-section th,
+.expenses-section td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.expenses-section th {
+    background-color: #2c7a4b;
+    color: white;
+}
+
+.expenses-section tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.expenses-section tr:hover {
+    background-color: #d9f2e3;
+}
